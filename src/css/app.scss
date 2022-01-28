@@ -1,0 +1,43 @@
+:root {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	$tart-orange: #f44a4aff;
+	$dark-orange: #fb8f23ff;
+	$minion-yellow: #fee440ff;
+	$screamin-green: #7aff60ff;
+	$sea-green-crayola: #00f5d4ff;
+	$capri: #00bbf9ff;
+	$amethyst: #9b5de5ff;
+	$magenta-crayola: #f15bb5ff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+	background-color: red;
+	display: flex;
+}
+
+.fullscreen {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.circle {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.circles {
+	background: rgba(255, 255, 255, 0.5);
+	filter: blur(20px);
+}
